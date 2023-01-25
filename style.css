@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(183, 226, 240);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    color: rgb(40, 166, 173);
+}
+
+#cityBtn {
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    background: rgb(154, 186, 212);
+    border-radius: 4%;
+}
+
+#cityWeatherOutput {
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#outputSpanApi {
+    font-size: 30px;
+    font-weight: bold;
+    color: #733ade;
+}
+
+.cityDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cityInputClass {
+    padding-left: 10px;
+    display: flex;
+    background: white;
+    height: 40px;
+    width: 200px;
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 4%;
+    border: none;
+}
+
+a {
+    color: rgb(145, 91, 52);
+    font-size: large;
+}
+
+a:hover {
+    color: rgb(230, 133, 14);
+    font-size: large;
+}
+
+footer {
+    color: rgb(22, 20, 20);
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    height: 26px;
+    clear: both;
+}
