@@ -2,7 +2,7 @@ const apiId = '3678d7754a9e47a1b0e163642232501';
 document.getElementById('cityBtn').onclick = function () {
     var cityInput = document.getElementById('cityInput').value;
     console.log(cityInput)
-    const url = `http://api.weatherapi.com/v1/current.json?key=${apiId}&q=${cityInput}`;
+    const url = `https://api.weatherapi.com/v1/current.json?key=${apiId}&q=${cityInput}`;
     console.log(url);
     fetch(url)
         .then((res) => res.json())
